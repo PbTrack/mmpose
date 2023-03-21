@@ -89,6 +89,7 @@ data_cfg = dict(
     vis_thr=0.2,
     use_gt_bbox=True,
     det_bbox_thr=0.4,
+    bbox_file=None,
 )
 
 train_pipeline = [

@@ -89,8 +89,7 @@ data_cfg = dict(
     vis_thr=0.2,
     use_gt_bbox=True,
     det_bbox_thr=0.4,
-    bbox_file='data/posetrack18/annotations/'
-    'posetrack18_val_human_detections.json',
+    bbox_file=None,
 )
 
 train_pipeline = [
