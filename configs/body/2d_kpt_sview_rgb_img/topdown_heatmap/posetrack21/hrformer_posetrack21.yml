@@ -4,6 +4,7 @@ Collections:
     Title: 'HRFormer: High-Resolution Vision Transformer for Dense Predict'
     URL: https://proceedings.neurips.cc/paper/2021/hash/3bbfdde8842a5c44a0323518eec97cbe-Abstract.html
   README: https://github.com/open-mmlab/mmpose/blob/master/docs/en/papers/backbones/hrformer.md
+Models:
 - Config: configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/hrformer_base_posetrack21_384x288.py
   In Collection: HRFormer
   Metadata:
