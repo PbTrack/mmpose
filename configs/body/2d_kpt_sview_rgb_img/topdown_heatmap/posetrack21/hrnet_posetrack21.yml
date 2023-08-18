@@ -1,0 +1,26 @@
+Collections:
+- Name: HRNet
+  Paper:
+    Title: Deep high-resolution representation learning for human pose estimation
+    URL: http://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html
+  README: https://github.com/open-mmlab/mmpose/blob/master/docs/en/papers/backbones/hrnet.md
+Models:
+- Config: configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/hrnet_w32_posetrack21_256x192.py
+  In Collection: HRNet
+  Metadata:
+    Architecture: &id001
+    - HRNet
+    Training Data: PoseTrack21
+  Name: topdown_heatmap_hrnet_w32_posetrack21_256x192
+  Results:
+  - Dataset: PoseTrack21
+    Task: Body 2D Keypoint
+- Config: configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/hrnet_w48_posetrack21_384x288.py
+  In Collection: HRNet
+  Metadata:
+    Architecture: *id001
+    Training Data: PoseTrack21
+  Name: topdown_heatmap_hrnet_w48_posetrack21_384x288
+  Results:
+  - Dataset: PoseTrack21
+    Task: Body 2D Keypoint
