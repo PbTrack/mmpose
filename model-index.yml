@@ -83,6 +83,10 @@ Import:
 - configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/ochuman/resnet_ochuman.yml
 - configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack18/hrnet_posetrack18.yml
 - configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack18/resnet_posetrack18.yml
+- configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack18/hrformer_posetrack18.yml
+- configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/hrnet_posetrack21.yml
+- configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/resnet_posetrack21.yml
+- configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/hrformer_posetrack21.yml
 - configs/body/2d_kpt_sview_rgb_vid/posewarper/posetrack18/hrnet_posetrack18_posewarper.yml
 - configs/body/3d_kpt_mview_rgb_img/voxelpose/campus/voxelpose_campus.yml
 - configs/body/3d_kpt_mview_rgb_img/voxelpose/panoptic/voxelpose_prn64x64x64_cpn80x80x20_panoptic_cam5.yml

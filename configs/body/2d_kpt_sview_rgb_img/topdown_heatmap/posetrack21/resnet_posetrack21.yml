@@ -1,0 +1,18 @@
+Collections:
+- Name: SimpleBaseline2D
+  Paper:
+    Title: Simple baselines for human pose estimation and tracking
+    URL: http://openaccess.thecvf.com/content_ECCV_2018/html/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.html
+  README: https://github.com/open-mmlab/mmpose/blob/master/docs/en/papers/algorithms/simplebaseline2d.md
+Models:
+- Config: configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/posetrack21/res50_posetrack21_256x192.py
+  In Collection: SimpleBaseline2D
+  Metadata:
+    Architecture: &id001
+    - SimpleBaseline2D
+    - ResNet
+    Training Data: PoseTrack21
+  Name: topdown_heatmap_res50_posetrack21_256x192
+  Results:
+  - Dataset: PoseTrack21
+    Task: Body 2D Keypoint
